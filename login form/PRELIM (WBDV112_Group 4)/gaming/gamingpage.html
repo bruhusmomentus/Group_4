@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title> OLFU GAMING HUB</title>
+	<link rel="stylesheet" href="css/style.css">
+	
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,800;0,900;1,800;1,900&display=swap" rel="stylesheet">
+	
+	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+	*{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+body {
+overflow-x: hidden;
+}
+.main-width{
+	width: 1400px;
+	max-width: 95%;
+	margin: 0 auto;
+	}
+.hero{
+	height: 100%;
+	width: 100%;
+	min-height: 100vh;	
+	background-image: url('wallpapaer.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+	position: relative;
+	}
+.hero header .logo h2 a{
+	display: block;
+	font-size: 32px;
+	font-weight: 600;
+	text-decoration: none;
+	color: white;
+}
+.hero header{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 40px 0 30px;
+}
+nav ul li{
+	list-style: none;
+	display: inline-block;
+}
+nav ul li a{
+	text-decoration: none;
+	color: whitesmoke;
+	margin-left: 60px;
+	font-size: 15px;
+	font-weight: 600;
+	border-bottom: 2px solid transparent;
+	transition: .4s;
+	
+}
+nav ul li:not(:last-child) a:hover,
+nav ul li:not(:last-child) a:focus{
+	border-bottom: 2px solid white;
+	
+	
+	
+}
+
+.logo {
+  transition: transform .3s; 
+}
+
+.logo:hover {
+  transform: scale(1.1);  
+}
+.content {
+	padding-top: 140px;
+}
+
+.content .main-text{
+	position: relative;
+	z-index: 2;
+	margin-bottom: 50px;
+}
+.content .main-text h6{
+	font-size: 14px;
+	font-weight: 400;
+	color: white;
+	margin-bottom: 10px;
+
+}
+
+.content .main-text h3{
+	font-size: 16px;
+	font-weight: 600;
+	color: white;
+	margin-bottom: 20px;
+}
+
+
+body {
+  background-image: url('wallpapaer.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  background-size: 100% 100%;
+}
+
+.content .main-text p{
+  max-width: 100%;
+  width: 480px;
+  color: white;
+  line-height: 1.8;
+  font-size: 16px;
+  margin-bottom: 50px;
+  padding: 9px 25px;
+}
+.content .main-text a{
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	background: 2px white;
+	padding: 9px 25px;
+	line-height: 1.4;
+	border-radius: 30px;
+	font-size: 14px;
+	font-weight: 500;
+	
+}
+.content .main-text a:hover{
+	transform: scale(1.2);
+	border: 1px solid #f5dca8;
+	background: transparent;
+	color: white;
+	transition: .4s;
+}
+
+.content .main-text a.cta{
+	border: 1px solid #f5dca8;
+	color: white;
+	background: transparent;
+	margin-left: 20px;
+}
+.content .main-text a.cta i{
+	margin-right: 12px;
+}
+.content .main-text a.cta:hover{
+	color: black;
+	background: white;
+	border: 1px solid white;
+	transition: .4s;
+}
+
+.content .social{
+	position: relative;
+	z-index: 2;
+	margin-top: 135px;
+	padding-bottom: 40px;
+}
+
+.content .social a{
+	display: inline-block;
+	color: #f5dcac;
+	margin-right: 25px;
+	font-size: 24px;
+}
+
+.content .social a:hover{
+	transform: scale(1.2);
+	transition: .4s;
+	color: white;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: transparent;
+}
+.container{
+    width: 85vmin;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    overflow: hidden;
+    border: 20px solid #ffffff;
+    border-radius: 8px;
+    box-shadow: 10px 25px 30px rgba(30,30,200,0.3);
+}
+.wrapper{
+    width: 100%;
+    display: flex;
+    animation: slide 16s infinite;
+	position: absolute;
+}
+@keyframes slide{
+    0%{
+        transform: translateX(0);
+    }
+    25%{
+        transform: translateX(0);
+    }
+    30%{
+        transform: translateX(-100%);
+    }
+    50%{
+        transform: translateX(-100%);
+    }
+    55%{
+        transform: translateX(-200%);
+    }
+    75%{
+        transform: translateX(-200%);
+    }
+    80%{
+        transform: translateX(-300%);
+    }
+    100%{
+        transform: translateX(-300%);
+    }
+}
+
+div.slider {
+border-style: solid;
+border-color: white;
+}
+.slider{
+  width: 800px;
+  height: 500px;
+  border-radius: 10px;
+  overflow: hidden;
+  position: absolute;
+  bottom: 190px;
+  right: -50px;
+
+
+}
+
+.slides{
+  width: 500%;
+  height: 500px;
+  display: flex;
+}
+
+.slides input{
+  display: none;
+}
+
+.slide{
+  width: 20%;
+  transition: 2s;
+}
+
+.slide img{
+  width: 800px;
+  height: 500px;
+}
+
+/*css for manual slide navigation*/
+
+.navigation-manual{
+  position: absolute;
+  width: 800px;
+  margin-top: -40px;
+  display: flex;
+  justify-content: center;
+}
+
+.manual-btn{
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+}
+
+.manual-btn:not(:last-child){
+  margin-right: 40px;
+}
+
+.manual-btn:hover{
+  background: #40D3DC;
+}
+
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
+
+#radio2:checked ~ .first{
+  margin-left: -20%;
+}
+
+#radio3:checked ~ .first{
+  margin-left: -40%;
+}
+
+#radio4:checked ~ .first{
+  margin-left: -60%;
+}
+
+/*css for automatic navigation*/
+
+.navigation-auto{
+  position: absolute;
+  display: flex;
+  width: 800px;
+  justify-content: center;
+  margin-top: 460px;
+}
+
+.navigation-auto div{
+  border: 2px solid #40D3DC;
+  padding: 5px;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.navigation-auto div:not(:last-child){
+  margin-right: 40px;
+}
+
+#radio1:checked ~ .navigation-auto .auto-btn1{
+  background: #40D3DC;
+}
+
+#radio2:checked ~ .navigation-auto .auto-btn2{
+  background: #40D3DC;
+}
+
+#radio3:checked ~ .navigation-auto .auto-btn3{
+  background: #40D3DC;
+}
+
+#radio4:checked ~ .navigation-auto .auto-btn4{
+  background: #40D3DC;
+}
+
+
+
+</style>
+</head>
+<body>
+
+
+<section class="hero">
+<div class="main-width">
+	<header>
+		<div class="logo">
+		<h2> <a href="#"><img src="universitylogo.png" width="600" height="100"></a></h2>
+		</div>
+		
+		<nav>
+		<ul>
+			<li><a href="#">Games</a></li>
+			<li><a href="#">Reviews</a></li>
+			<li><a href="#">Faq</a></li>
+			<li><a href="#">Chat</a></li>
+			<li><a href="#"><i>Learn More<i></a></li>
+		</ul>
+		</nav>
+	</header>
+	<div class="content">
+		<div class="main-text">
+			<h6>Fatima ESports</h6>
+			<h3>OLFU'S ESPORT NEWS and UPDATES</h3>
+			<h1> <img src="olfu.png" height="120"><h1>
+			<p>A page that is all about the news and updates about the upcoming esports of our University
+together with exciting new content release of the following games our event is able to promote.</p>
+	<a href="#">Learn Now</a>
+	<a href="#" class="cta"><i class="fa-solid fa-play"></i>Watch Live Competition</a>
+	</div>
+	<div class="social">
+		<a href="#"><i class="fa-brands fa-facebook"></i></a>
+		<a href="#"><i class="fa-brands fa-twitter"></i></a>
+		<a href="#"><i class="fa-brands fa-discord"></i></a>
+		<a href="#"><i class="fa-solid fa-computer"></i></i></a>
+		<a href="#"><i class="fa-solid fa-mobile"></i></a>
+
+	 <!--image slider start-->
+    <div class="slider">
+      <div class="slides">
+        <!--radio buttons start-->
+        <input type="radio" name="radio-btn" id="radio1">
+        <input type="radio" name="radio-btn" id="radio2">
+        <input type="radio" name="radio-btn" id="radio3">
+        <input type="radio" name="radio-btn" id="radio4">
+        <!--radio buttons end-->
+        <!--slide images start-->
+        <div class="slide first">
+        <img src="img/banner.jpg" alt="">
+        </div>
+        <div class="slide">
+          <a href="https://playvalorant.com/en-us/"><img src="img/valo.jpg" alt=""></a>
+        </div>
+        <div class="slide">
+          <a href="https://www.callofduty.com/mobile"><img src="img/cod.jpg" alt=""></a>
+        </div>
+        <div class="slide">
+          <a href="https://m.mobilelegends.com/en"><img src="img/ml.png" alt=""></a>
+        </div>
+        <!--slide images end-->
+        <!--automatic navigation start-->
+        <div class="navigation-auto">
+          <div class="auto-btn1"></div>
+          <div class="auto-btn2"></div>
+          <div class="auto-btn3"></div>
+          <div class="auto-btn4"></div>
+        </div>
+        <!--automatic navigation end-->
+      </div>
+      <!--manual navigation start-->
+      <div class="navigation-manual">
+        <label for="radio1" class="manual-btn"></label>
+        <label for="radio2" class="manual-btn"></label>
+        <label for="radio3" class="manual-btn"></label>
+        <label for="radio4" class="manual-btn"></label>
+      </div>
+      <!--manual navigation end-->
+    </div>
+    <!--image slider end-->
+
+    <script type="text/javascript">
+    var counter = 1;
+    setInterval(function(){
+      document.getElementById('radio' + counter).checked = true;
+      counter++;
+      if(counter > 4){
+        counter = 1;
+      }
+    }, 5000);
+    </script>
+	
+	</div>
+</div>
+</section>	
+
+
+
+
+</body>
+</html>
